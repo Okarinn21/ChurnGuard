@@ -6,7 +6,7 @@ A machine learning system for predicting bank customer churn using **XGBoost** +
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 BANK-CHURN/
@@ -46,7 +46,7 @@ BANK-CHURN/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python **3.9+**
 - pip
@@ -54,7 +54,7 @@ BANK-CHURN/
 
 ---
 
-## 🚀 Installation & Running
+## Installation & Running
 
 ### Step 1 — Create virtual environment (recommended)
 
@@ -120,7 +120,7 @@ xdg-open apps/index.html
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -134,7 +134,7 @@ xdg-open apps/index.html
 | `GET` | `/stats/feature-importance` | Feature importance scores |
 
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 **Error: `Model not loaded` (503)**
 ```bash
