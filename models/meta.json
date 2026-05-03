@@ -1,0 +1,38 @@
+{
+  "features": [
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary"
+  ],
+  "geography_classes": [
+    "France",
+    "Germany",
+    "Spain"
+  ],
+  "gender_classes": [
+    "Female",
+    "Male"
+  ],
+  "best_threshold": 0.6575757575757576,
+  "val_metrics": {
+    "logistic_regression": {
+      "auc": 0.8064,
+      "f1": 0.5456
+    },
+    "random_forest": {
+      "auc": 0.8867,
+      "f1": 0.6515
+    },
+    "xgboost": {
+      "auc": 0.8902,
+      "f1": 0.6462
+    }
+  }
+}
